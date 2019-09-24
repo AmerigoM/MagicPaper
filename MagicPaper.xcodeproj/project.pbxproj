@@ -13,6 +13,7 @@
 		16DB43E1233A82E400550814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DB43DF233A82E400550814 /* Main.storyboard */; };
 		16DB43E3233A82E500550814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DB43E2233A82E500550814 /* Assets.xcassets */; };
 		16DB43E6233A82E500550814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DB43E4233A82E500550814 /* LaunchScreen.storyboard */; };
+		16DB43EE233A834D00550814 /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 16DB43ED233A834D00550814 /* harrypotter.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		16DB43E2233A82E500550814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16DB43E5233A82E500550814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16DB43E7233A82E500550814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DB43ED233A834D00550814 /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harrypotter.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		16DB43D8233A82E400550814 /* MagicPaper */ = {
 			isa = PBXGroup;
 			children = (
+				16DB43ED233A834D00550814 /* harrypotter.mp4 */,
 				16DB43D9233A82E400550814 /* AppDelegate.swift */,
 				16DB43DB233A82E400550814 /* art.scnassets */,
 				16DB43DD233A82E400550814 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			files = (
 				16DB43DC233A82E400550814 /* art.scnassets in Resources */,
 				16DB43E6233A82E500550814 /* LaunchScreen.storyboard in Resources */,
+				16DB43EE233A834D00550814 /* harrypotter.mp4 in Resources */,
 				16DB43E3233A82E500550814 /* Assets.xcassets in Resources */,
 				16DB43E1233A82E400550814 /* Main.storyboard in Resources */,
 			);
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D25KP5FZHX;
 				INFOPLIST_FILE = MagicPaper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.amancino.MagicPaper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D25KP5FZHX;
 				INFOPLIST_FILE = MagicPaper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.amancino.MagicPaper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
